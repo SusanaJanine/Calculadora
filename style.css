@@ -6,6 +6,15 @@ body {
     align-items: center;
     height: 100vh;
     margin-top: 50px;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    color: #047da1;
+    margin-bottom: 60px;
+    font-size: 60px;
+
 }
 
 .calculator {
