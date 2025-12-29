@@ -1,13 +1,21 @@
 body {
-    font-family: Arial;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#adf3f8;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin-top: 50px;
 }
 
 .calculator {
-    border: 2px solid #333;
-    padding: 10px;
+    background-color: #e0f7fa;
+    border: 2px solid #67d4f5;
+    padding: 10px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 260px;
 }
 
 #display {
