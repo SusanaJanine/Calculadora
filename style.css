@@ -14,7 +14,17 @@ body {
     color: #047da1;
     margin-bottom: 60px;
     font-size: 60px;
+}
 
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .calculator {
@@ -51,7 +61,7 @@ button {
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    background-color: #97c4d1;
+    background-color: #97b5d1;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
