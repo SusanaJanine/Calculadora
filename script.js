@@ -67,3 +67,7 @@ function log() {
         display.value = "Error";
     }
 }
+
+function deleteLast() {
+    dis
+}
